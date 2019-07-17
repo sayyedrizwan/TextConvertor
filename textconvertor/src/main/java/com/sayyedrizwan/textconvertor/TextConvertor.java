@@ -5,20 +5,15 @@ import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
-import android.os.Handler;
 import android.speech.RecognizerIntent;
 import android.speech.tts.TextToSpeech;
-import android.support.annotation.Nullable;
 import android.util.Log;
-import android.widget.Button;
 import android.widget.Toast;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
 import java.util.Locale;
 
-import static android.app.Activity.RESULT_OK;
 import static android.content.ContentValues.TAG;
+
 
 public class TextConvertor {
 

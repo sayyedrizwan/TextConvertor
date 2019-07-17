@@ -1,4 +1,4 @@
-package com.sayyedrizwan.textconvertor;
+package com.sayyedrizwan.textconvertor.android;
 
 import org.junit.Test;
 

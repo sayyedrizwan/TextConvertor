@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
                 if (resultCode == RESULT_OK && null!= data){
                     ArrayList<String> result = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
 
+                    //Get the output of speech
                     editText.setText(result.get(0));
                 }
                 break;

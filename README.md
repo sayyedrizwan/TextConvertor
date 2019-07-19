@@ -35,8 +35,10 @@ Convert Text into Voice(Speech) and Speech into Text..
   
   <h3> To Convert speech into text </h3>
   
-    TextConvertor.speechtoText(context);
+    TextConvertor.speechtoText(context);  // It will activate voice control to get your voice
     
+    
+    // put full switch case in onActivityResult class to get the output
     
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {

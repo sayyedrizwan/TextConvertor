@@ -1,5 +1,8 @@
 package com.sayyedrizwan.textconvertor;
 
+/*
+Copyright 2020 Rizwan Sayyed (Sayyed Rizwan)
+ */
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
